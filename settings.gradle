@@ -1,0 +1,2 @@
+rootProject.name='JurassicWorldToy'
+include ':app'

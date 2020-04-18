@@ -1,0 +1,14 @@
+ext {
+    version = [major: 0,
+               minor: 1,
+               patch: 0]
+
+    demo = [appName      : 'Jurassic World Toy',
+            applicationId: [debug: 'com.ruiskas.jurassicworldtoy'],
+
+            apiUrl       : [
+                    debug  : '',
+                    release: '',
+            ]
+    ]
+}
