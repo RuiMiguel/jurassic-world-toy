@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Gigigo-Android-Devs:gigigo-permissions-library-android:0.3RC@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efa1341bc7e33bf41e61b7378dfaea5e/jetified-gigigo-permissions-library-android-0.3RC/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efa1341bc7e33bf41e61b7378dfaea5e/jetified-gigigo-permissions-library-android-0.3RC/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Gigigo-Android-Devs/gigigo-permissions-library-android/0.3RC/7eec54cc1f640b85aeb6ca559ce44ab20d675e01/gigigo-permissions-library-android-0.3RC-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

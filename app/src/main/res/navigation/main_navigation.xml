@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/screen_map">
+
+    <fragment
+        android:id="@+id/screen_map"
+        android:name="com.ruiskas.jurassicworldtoy.ui.home.MapFragment"
+        android:label="@string/map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/screen_library"
+        android:name="com.ruiskas.jurassicworldtoy.ui.home.LibraryFragment"
+        android:label="@string/library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@+id/screen_combat"
+        android:name="com.ruiskas.jurassicworldtoy.ui.home.CombatFragment"
+        android:label="@string/combat"
+        tools:layout="@layout/fragment_combat" />
+
+    <fragment
+        android:id="@+id/screen_profile"
+        android:name="com.ruiskas.jurassicworldtoy.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/screen_settings"
+        android:name="com.ruiskas.jurassicworldtoy.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
