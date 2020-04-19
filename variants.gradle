@@ -1,14 +1,16 @@
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))
+
 ext {
     version = [major: 0,
                minor: 1,
                patch: 0]
 
-    demo = [appName      : 'Jurassic World Toy',
-            applicationId: [debug: 'com.ruiskas.jurassicworldtoy'],
+    demo = [appName         : 'Jurassic World Toy',
+            applicationId   : [debug: 'com.ruiskas.jurassicworldtoy'],
 
-            apiUrl       : [
-                    debug  : '',
-                    release: '',
+            googleMapsApiKey: [
+                    debug: localProperties['googleMapsApiKey']
             ]
     ]
 }

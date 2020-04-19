@@ -9,7 +9,7 @@ class RootViewModel(
     private val appCoordinator: AppCoordinator,
     private val doWait: DoWait
 ) : BaseViewModel() {
-    private val SPLASH_TIME = 7L
+    private val SPLASH_TIME = 9L
 
     init {
         loadConfiguration()

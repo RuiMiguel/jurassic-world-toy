@@ -2,7 +2,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- enable window content transitions -->
         <item name="android:windowActivityTransitions">true</item>
-        <!--<item name="android:fontFamily">@font/acre_medium</item>-->
+        <item name="android:fontFamily">@font/jurassic_park</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

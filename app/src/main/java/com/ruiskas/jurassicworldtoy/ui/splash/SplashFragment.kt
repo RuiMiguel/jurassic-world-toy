@@ -1,10 +1,12 @@
 package com.ruiskas.jurassicworldtoy.ui.splash
 
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.ruiskas.jurassicworldtoy.R
 import com.ruiskas.jurassicworldtoy.databinding.FragmentSplashBinding
 
 class SplashFragment : Fragment() {
@@ -25,6 +27,7 @@ class SplashFragment : Fragment() {
     }
 
     private fun initView() {
-
+        var mediaPlayer: MediaPlayer? = MediaPlayer.create(context, R.raw.splash)
+        mediaPlayer?.start() // no need to call prepare(); create() does that for you
     }
 }
