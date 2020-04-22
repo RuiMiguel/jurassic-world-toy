@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/screen_library"
-        android:name="com.ruiskas.jurassicworldtoy.ui.home.LibraryFragment"
+        android:name="com.ruiskas.jurassicworldtoy.ui.home.mylibrary.LibraryFragment"
         android:label="@string/library"
         tools:layout="@layout/fragment_library" />
 
